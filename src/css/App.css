@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: whitesmoke;
+    direction: rtl;
+    font-family: IRANSans;
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url(../fonts/IRANSans.ttf);
+}

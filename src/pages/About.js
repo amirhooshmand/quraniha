@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import NavigationContainer from '../components/Navigation/NavigationContainer'
 
 class About extends Component {
 
@@ -16,7 +15,6 @@ class About extends Component {
 
         return (
             <div>
-                <NavigationContainer location={window.location.pathname} />
                 <h1>{text}</h1>
             </div>
         )
